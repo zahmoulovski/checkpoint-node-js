@@ -29,19 +29,19 @@ var server = http.createServer(function (req, res) {
 var nodemailer = require('nodemailer');
 
 let transporter = nodemailer.createTransport({
-    host: "mail.klarrion.com",
+    host: "mail.gmail.com",
     port: 465,
     secure: true,
     auth: {
-    user: 'gomycode@klarrion.com',
-    pass: 'Yassine2022'
+    user: 'kina@gmail.com',
+    pass: 'kina'
   }
 });
 
 var mailOptions = {
-  from: 'gomycode@klarrion.com',
+  from: 'kina@gmail.com',
 // enter your email here between quotes
-  to: 'medyassine.zahmoul@gmail.com',
+  to: 'kina@gmail.com',
 // enter your email here between quotes
   subject: 'Sending Email using Node.js',
   text: `This is a generated password : ${password}`
